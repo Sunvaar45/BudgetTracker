@@ -18,6 +18,7 @@ namespace BudgetTracker
 
             // Initialize Database
             DatabaseHelper.InitializeDatabase();
+
             Application.Run(new LoginForm());
         }
     }
