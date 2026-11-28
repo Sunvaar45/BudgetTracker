@@ -68,6 +68,7 @@
             btnGoToRegister.TabIndex = 3;
             btnGoToRegister.Text = "Kayıt Ol";
             btnGoToRegister.UseVisualStyleBackColor = true;
+            btnGoToRegister.Click += btnGoToRegister_Click;
             // 
             // LoginForm
             // 

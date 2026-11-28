@@ -67,7 +67,7 @@
             btnRegister.TabIndex = 3;
             btnRegister.Text = "Kayıt Ol";
             btnRegister.UseVisualStyleBackColor = true;
-            btnRegister.Click += button1_Click;
+            btnRegister.Click += btnRegister_Click;
             // 
             // btnGoToLogin
             // 
@@ -77,6 +77,7 @@
             btnGoToLogin.TabIndex = 4;
             btnGoToLogin.Text = "Geri Dön";
             btnGoToLogin.UseVisualStyleBackColor = true;
+            btnGoToLogin.Click += btnGoToLogin_Click;
             // 
             // RegisterForm
             // 

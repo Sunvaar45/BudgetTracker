@@ -31,7 +31,5 @@ namespace BudgetTracker.Data
             using var cmd = new SqliteCommand(createUsersTable, conn);
             cmd.ExecuteNonQuery();
         }
-    
-        
     }
 }

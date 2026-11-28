@@ -12,4 +12,8 @@
     <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.34" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+
 </Project>

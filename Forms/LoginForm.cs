@@ -19,7 +19,19 @@ namespace BudgetTracker.Forms
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            
+        }
 
+        private void btnGoToRegister_Click(object sender, EventArgs e)
+        {
+            Hide();
+
+            using (var registerForm = new RegisterForm())
+            {
+                registerForm.ShowDialog();
+            }
+
+            Show();
         }
     }
 }
